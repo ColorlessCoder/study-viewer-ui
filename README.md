@@ -6,14 +6,14 @@
 2. Install npm (Node package manager) version 6.13.4 or later version
 3. After installing both of them, check whether `npm -v` and `node -v` command works
 
-## Prepare coding setup
+## Run the project
 
 1. cd to Project directory
 2. Run the following command to install all the node packages:
 ```bash
 $ npm install
 ```
-3. Run the spring application first following the instruction described the associated repository's Readme.md
+3. Run the spring application first following the instruction described the associated repository's [Readme.md](https://github.com/ColorlessCoder/study-viewer-server/blob/main/README.md#run-the-project)
 4. After installing the packages, run the following command to run the client:
 ```bash
 $ npm start
@@ -35,7 +35,7 @@ $ npm start
 $ npm run build
 ```
 3. The build files will be available in `${projectDir}/build`
-4. To deploy please follow instruction of the server repository's Readme.md
+4. To deploy please follow instruction of the server repository's [Readme.md](https://github.com/ColorlessCoder/study-viewer-server/blob/main/README.md#run-the-project)
 
 ## How to use the application?
 
