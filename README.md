@@ -35,7 +35,7 @@ $ npm start
 $ npm run build
 ```
 3. The build files will be available in `${projectDir}/build`
-4. To deploy please follow instruction of the server repository's [Readme.md](https://github.com/ColorlessCoder/study-viewer-server/blob/main/README.md#run-the-project)
+4. To deploy please follow instruction of the server repository's [Readme.md](https://github.com/ColorlessCoder/study-viewer-server/blob/main/README.md#create-executable-jar)
 
 ## How to use the application?
 
