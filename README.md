@@ -49,6 +49,7 @@ $ npm run build
 6. User must associate a patient to create study.
 7. After populating all the necessary fields, hitting save will create the study.
 8. In case of any exception application will show the message in left-bottom.
+9. All the text fields have length limit: Person Code(50), First name(50), Last name(50), Study Name(50), Study Description(200)
 
 ### Study Grid
 
@@ -58,6 +59,7 @@ $ npm run build
 4. The grid supports filter and search.
 5. There is a vertical icon on the first column for each row.
 6. Clicking on the vertical icon will give user options of edit and delete the associated row.
+7. The grid will show the following columns: Person Code, Patient's Full Name, Patient's Date of Birth, Study Name, Study Description, Study Creation/Update Datetime
 
 ### Delete Selected Study
 
