@@ -3,7 +3,7 @@
 ## Setting up your environment
 
 1. Install nodejs 12.16.1
-2. Install npm (Node package manager) version 6.13.4 or later version
+2. Installing nodejs should already install npm (node package manager)
 3. After installing both of them, check whether `npm -v` and `node -v` command works
 
 ## Run the project
