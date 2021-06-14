@@ -117,18 +117,18 @@ export default function StudyList() {
             columns={columns}
             getRowNodeId={data => data.studyPk}
             showToolbar={true}
+            headerTitle="Patient Study Viewer"
             toolbarButtons={[
-                {
-                    label: "Create Study",
-                    onClick: (param: GridApi) => createStudy(),
-                    icon: () => <Add />,
-                    style: { background: "#4caf50"}
-                },
                 {
                     label: "Delete Selected Study",
                     onClick: (param: GridApi) => handleDelete(param.getSelectedRows()),
                     icon: () => <Delete />,
                     color: "secondary",
+                },{
+                    label: "Create Study",
+                    onClick: (param: GridApi) => createStudy(),
+                    icon: () => <Add />,
+                    style: { background: "#4caf50"}
                 },
             ]}
         />

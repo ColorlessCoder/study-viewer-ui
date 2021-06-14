@@ -29,6 +29,7 @@ export interface DataGridProps extends GridOptions {
     rowMenus?: RowMenuInt[]
     getRowNodeId: GetRowNodeIdFunc,
     showToolbar?: boolean,
+    headerTitle?: string,
     toolbarButtons?: ToolbarButtonInt[]
 }
 
@@ -60,7 +61,7 @@ export default function DataGrid(props: DataGridProps) {
         }}
         className="ag-theme-alpine-dark"
     >
-        {props.showToolbar && <Toolbar gridApi={gridApi} buttons={props.toolbarButtons}/>}
+        {props.showToolbar && <Toolbar gridApi={gridApi} buttons={props.toolbarButtons} headerTitle={props.headerTitle}/>}
         <AgGridReact
             {...props}
             frameworkComponents={frameworkComponents}
